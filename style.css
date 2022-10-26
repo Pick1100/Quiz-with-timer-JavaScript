@@ -1,15 +1,44 @@
-
+/*In order: tiffany blue, midnight blue, ivory, and dark blue*/
+:root{
+--cmain: #6AA4B0;
+--caccent: #2F6D80;
+--cbackground: #E1E7E0;
+--cdark: #2B4560;
+}
+body{
+    background-color: var(--cdark);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
 #outerBox{
-
+    display: flex;
+    height: 98vh;
+    width: 85vw;
+    background-color: var(--cbackground);
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+    
 }
 #time{
 
 }
 #start{
-
+margin: 20vh;;
+width: 15%;
+height: 3%;
+background-color: var(--caccent);
+text-align: center;
 }
 #next{
-
+    margin: 20vh;;
+    width: 15%;
+    height: 3%;
+    background-color: var(--caccent);
+    text-align: center;
 }
 #score{
 
@@ -22,4 +51,4 @@
 #answerC
 #answerD{
 
-}
+} */
