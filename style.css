@@ -18,15 +18,17 @@ body{
     height: 98vh;
     width: 85vw;
     background-color: var(--cbackground);
-    flex-direction: column;
     flex-wrap: wrap;
    
     
 }
 #time{
-
+    width: 15%;
+    height: 3%;
+    background-color: var(--caccent);
+    text-align: center;
 }
-/* #start{
+ #start{
 margin: 20vh;;
 width: 15%;
 height: 3%;
@@ -39,12 +41,21 @@ text-align: center;
     height: 3%;
     background-color: var(--caccent);
     text-align: center;
-} */
+} 
 #score{
-
+    width: 15%;
+    height: 3%;
+    background-color: var(--caccent);
+    text-align: center;
 }
 #question{
-
+    display: flex;
+    min-height: 30vh;
+    min-width: 50vw;
+    flex-wrap: wrap;
+    background-color: var(--cmain);
+    align-self: center;
+    justify-self: center;
 }
 #answers{
     justify-content: space-evenly;
