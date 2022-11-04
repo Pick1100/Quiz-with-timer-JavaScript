@@ -2,7 +2,7 @@
 //Model- How you store your data, structure- array, obj, array.object
     //In let
 
-
+var time = document.getElementById("time")
     
 // Timer with decreasing time for wrong answers
 // Randomizer for questions (A-D)
@@ -11,7 +11,7 @@
 // Select correct answer media query (on click correct answer A-D)
 // Ending screen 
 // High score list
-//Try again menu
+// Try again menu
 // On going score
 // Start screen (overlay)
 function time {

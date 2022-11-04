@@ -40,7 +40,7 @@ body{
 }
 #next{
     position: relative;
-    align-self: center;
+    align-self:flex-end;
     width: 15%;
     height: 13%;
     background-color: var(--caccent);
@@ -53,7 +53,6 @@ body{
     height: 3%;
     background-color: var(--caccent);
     text-align: center;
-}
 #question{
     display: inline-flexbox;
     margin: 1%;
@@ -75,10 +74,10 @@ body{
 #answerB,
 #answerC,
 #answerD{
-    display:flex;
+    flex
     flex-wrap: wrap;
-    width: 45%;
-    height: 20%;
+    min-width: 45%;
+    min-height: 20%;
     background-color: var(--cmain);
     text-align: center;
     margin: 2%;
